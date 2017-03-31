@@ -20,7 +20,7 @@
   h2 {
       font-size: 24px;
       text-transform: uppercase;
-      color: #303030;
+      color: #C40003;
       font-weight: 600;
       margin-bottom: 30px;
   }
@@ -32,7 +32,7 @@
       margin-bottom: 30px;
   }  
   .jumbotron {
-      background-color: #2F4F4F;
+      background-color: #fff;
       color: #fff;
       padding: 100px 25px;
       font-family: 'Armata', sans-serif;
@@ -44,11 +44,11 @@
       background-color: #f6f6f6;
   }
   .logo-small {
-      color: #2F4F4F;
+      color: #363636;
       font-size: 50px;
   }
   .logo {
-      color: #2F4F4F;
+      color: #363636;
       font-size: 200px;
   }
   .thumbnail {
@@ -76,7 +76,7 @@
   
   .navbar {
       margin-bottom: 0;
-      background-color: #2F4F4F;
+      background-color: #363636;
       z-index: 9999;
       border: 0;
       font-size: 12px !important;
@@ -89,7 +89,7 @@
       color: #fff !important;
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
-      color: #2F4F4F !important;
+      color: #363636 !important;
       background-color: #fff !important;
   }
   .navbar-default .navbar-toggle {
@@ -185,8 +185,7 @@
 </nav>
 
 <div class="jumbotron text-center">
-  <h1>Institute Web Operations</h1> 
-  <p>IIT Madras</p> 
+  <img src="images/logo.png" alt="logo" width="300"></img> 
   <form>
     <div class="input-group">
       <input type="text" class="form-control" size="50" placeholder="Search..." required>
@@ -200,21 +199,27 @@
   </form>
 </div>
 
+
+
+
 <!-- Container (About Section) -->
+
 <div id="about" class="container-fluid">
-  <div class="row">
+  <div class="row slideanim">
+
+    <div class="col-sm-4">
+    <br><br>
+      <span class="glyphicon glyphicon-signal logo" style="float:left;"></span>
+    </div>
     <div class="col-sm-8">
       <h2>About </h2><br>
-      <h4>Institute Web Operations team is something and this is just sample text.</h4><br>
-      <p>Here goes most of the details about Institute Web Ops. A short summary would be nice with a few words about the history as well. </p>
-      <br><button class="btn btn-default btn-lg">Get in Touch</button>
+      <h4>The institute web and mobile operations team aka inst web ops takes care of all student related web operations in IIT Madras</h4><br>
+      <p>We've worked closely with EML, CFI and several other student bodies in the institute for developing and hosting their websites. Started as small team, we've gained recognition over the years and went on to become part of the Student General Body, working directly under the Dean of Students and Student General Secretary. We're also involved in mobile application development. Insti life was made a lot easier for students after we've released our IIT Madras Students app - a one stop app integrating all student related services.  </p>
+      <br><a href="http://www.coffeecup.com"><button class="btn btn-default btn-lg">Get in Touch</button></a>
     </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-signal logo"></span>
-    </div>
+    
   </div>
 </div>
-
 
 
 <!-- Container (Services Section) -->
@@ -226,19 +231,19 @@
     <div class="col-sm-4 box">
       <span class="glyphicon glyphicon-edit logo-small"></span>
       <h4>Feedback Portal</h4>
-      <p>Some details about feedback portal</p>
+      
     </div>
     <div class="col-sm-4 box">
       <span class="glyphicon glyphicon-list-alt logo-small"></span>
       <h4>Course Review</h4>
-      <p>Some details about course review</p>
+      
     </div>
     <div class="col-sm-4 box">
       <a class="link" href="#">	
       	<span class="glyphicon glyphicon-info-sign logo-small"></span>
       </a>
       <h4>Information Portal</h4>
-      <p>Some information about information portal</p>
+     
     </div>
   </div>
   <br><br>
@@ -246,16 +251,98 @@
     <div class="col-sm-4 box">
       <span class="glyphicon glyphicon-education logo-small"></span>
       <h4>Research Plus</h4>
-      <p>Some details about research plus</p>
+      
     </div>
     
 </div>
+</div>
+
+
+
+<div id="about" class="container-fluid">
+  <div class="row slideanim">
+    <div class="col-sm-8">
+      <h2>Students IITM </h2><br>
+      <h4>It is the single website which binds all the
+websites that can be well used by the institute</h4><br>
+      <p>A well designed catalog of all the websites that you'll ever need to use in your insti life. Good place to hang out if you'd like to explore the student bodies in insti. Our search functionality developed by us lets you find students by name or roll number. </p>
+      <br><a href="http://students.iitm.ac.in"><button class="btn btn-default btn-lg">Visit Site</button></a>
+    </div>
+    <div class="col-sm-4">
+    <br><br>
+      <span class="glyphicon glyphicon-edit logo"></span>
+    </div>
+  </div>
+</div>
+
+
+<div id="about" class="container-fluid">
+  <div class="row slideanim">
+
+    <div class="col-sm-4">
+    <br><br>
+      <span class="glyphicon  glyphicon-info-sign logo"></span>
+    </div>
+    <div class="col-sm-8">
+      <h2>Information Portal </h2><br>
+      <h4>
+A portal to find information regarding all the facilities in the institute</h4><br>
+      <p>From hostel secretaries to
+Institute secretaries , from RR-Himalaya mess to our own CCD , it has all the
+information that one has to know about them. It contains all the contact infomation
+and residence information of all the institute secretaries . It has all the mess menus
+and the timings etc. It has a pretty robust design and good security. </p>
+      <br><button class="btn btn-default btn-lg">Visit Site</button>
+    </div>
+    
+  </div>
+</div>
+
+<div id="about" class="container-fluid">
+  <div class="row slideanim">
+    <div class="col-sm-8">
+      <h2>Course Review </h2><br>
+      <h4> A place to review courses </h4>
+      <p>Have you ever felt confused and overwhelmed
+by some big decisions in your academic life like what minor to opt? Or what HS
+elective to select? Then this is the site for you. Reviewing every course in the
+institute and maintaing the ethics, it is a well built site for our academic needs. </p>
+      <br><button class="btn btn-default btn-lg">Visit Site</button>
+    </div>
+    <div class="col-sm-4">
+      <br><br>
+      <span class="glyphicon glyphicon-list-alt logo"></span>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="about" class="container-fluid">
+  <div class="row slideanim">
+    <div class="col-sm-4">
+    <br><br>
+      <span class="glyphicon glyphicon-education logo"></span>
+    </div>
+    <div class="col-sm-8">
+      <h2>Research Portal </h2><br>
+      <h4>Linked-In for institute students would be a good way of describing it</h4><br>
+      <p>It is a website to store all your information
+maybe academic and extra-curricular in one place.You can look-up for any student in the website. Current endeavous are
+going on to add the functionality to mail your resume with the data given to the
+specified mail address. It has a very professional look pleasing anyone. </p>
+      <br><button class="btn btn-default btn-lg">Visit Site</button>
+    </div>
+    
+  </div>
+</div>
+
 
 <!-- Container (Portfolio Section) -->
 <div id="suggest" class="container-fluid text-center bg-grey">
   <h2>SUGGEST</h2>
   <h4>Tell us what to build</h4>
-  <p> Some text telling why they need to tell us what we should build</p>
+  <p>We look forward to hearing bright ideas that could be implemented with our help. If you have any such ideas that you'd like for us to build, please let us know.</p>
  
 
   <div class="col-sm-7 slideanim">
@@ -284,6 +371,7 @@
 <!-- Container (Contact Section) -->
 
 <script>
+//#C40003 red: #363636 grey
 $(document).ready(function(){
   // Add smooth scrolling to all links in navbar + footer link
   $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
